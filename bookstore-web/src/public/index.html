@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Книжный магазин</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Книжный магазин</h1>
+  <div id="controls">
+    <input id="filterCategory" placeholder="Категория" />
+    <input id="filterAuthor" placeholder="Автор" />
+    <select id="sortBy">
+      <option value="title">По названию</option>
+      <option value="author">По автору</option>
+      <option value="year">По году</option>
+      <option value="price_rent">По цене аренды</option>
+    </select>
+    <button id="loadBooks">Показать книги</button>
+  </div>
+  <div id="books"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
